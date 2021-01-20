@@ -1,3 +1,4 @@
+[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=3930094&assignment_repo_type=AssignmentRepo)
 # HigherAverageAttendanceTask
 
 The school cricket team wants to calculate the average attendance at their 8 home games in the season, the attendance should be displayed without a decimal value even if it is .0 as that is how they collect the data and dont want to imagine half a fan!
