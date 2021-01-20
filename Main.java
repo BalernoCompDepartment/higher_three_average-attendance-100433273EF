@@ -1,18 +1,13 @@
 class Main {
   public static void main(String[] args) {
-    
-  // Step 1: set total initially to 0
-    
-  //Step 2: Start a fixed loop for 8 atttendances
-    
-  //Step 3: ask user for attendance
-    
-  //Step 4: add value of attendance to total
-    
-  //Step 5: End fixed loop
-    
-  //Step 6: Round average and convert to integer
-    
-  //Step 7: display the "Average cricket attendance is " concantenated with the calue of the average and followed by " this year"\
+
+    double total = 0;    
+    for (int index = 0; index < 8; index ++) {
+      double attendance = Keyboard.getInt("Please enter the attendance of Game " + (index + 1));
+      total = total + attendance;
+    }
+    int average = (int) Math.round(total / 8 ); //rounds like maths so 13 is stored\
+    System.out.println("Average cricket attendance is " + average + " this year.");
+
   }
 }
