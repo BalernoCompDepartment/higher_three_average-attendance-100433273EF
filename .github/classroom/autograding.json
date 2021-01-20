@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "working",
+      "setup": "javac *.java",
+      "run": "java Main",
+      "input": "8\r\n8\r\n8\r\n8\r\n8\r\n8\r\n8\r\n8\r\n",
+      "output": "8",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "rounding",
+      "setup": " javac *.java",
+      "run": "java Main",
+      "input": "1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n",
+      "output": "5",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "datatype",
+      "setup": " javac *.java",
+      "run": "java Main",
+      "input": "1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n",
+      "output": " 5 ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
